@@ -53,14 +53,14 @@ export default {
       default: () => [
         {
           name: 'sentMessage',
-          details: { name: 'Vasily S', avatar: 'https://picsum.photos/123' },
+          details: { name: 'Virat Kohli', avatar: 'https://picsum.photos/123' },
           unread: true,
           id: 1,
         },
         {
-          name: 'uploadedZip',
+          name: 'sentMessage',
           details: {
-            name: 'Oleg M',
+            name: 'Adam Gilchrist',
             avatar: 'https://picsum.photos/100',
             type: 'typography component',
           },
@@ -68,8 +68,8 @@ export default {
           id: 2,
         },
         {
-          name: 'startedTopic',
-          details: { name: 'Andrei H', avatar: 'https://picsum.photos/24' },
+          name: 'sentMessage',
+          details: { name: 'Abraham DeVilliers', avatar: 'https://picsum.photos/24' },
           unread: true,
           id: 3,
         },
