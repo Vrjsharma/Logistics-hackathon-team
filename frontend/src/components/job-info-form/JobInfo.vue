@@ -1,7 +1,7 @@
 <template>
   <div class="form-elements">
     <div class="row">
-      
+
           <div class="flex xs12">
             <va-card :title="'Job Name'">
               <va-input
@@ -67,7 +67,7 @@
 </template>
 
 <script>
-import skills from './jobselecs.json'
+
 export default {
   name: 'form-elements',
   data () {
@@ -76,7 +76,7 @@ export default {
       simpleOptions: ["Creating marketing materials","Social media content creation","Blogging/Writing","Real estate",
       "Construction","Bioinformatics","software analysis","statistical analysis","Law"],
       multiSelectModel: [],
-      advancedList:[], 
+      advancedList:[],
     }
   },
   methods: {

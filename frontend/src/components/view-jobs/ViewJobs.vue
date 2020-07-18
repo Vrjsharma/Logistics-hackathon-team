@@ -5,7 +5,7 @@
         <va-list fit class="mb-2">
 
           <va-list-label>
-            {{ $t('lists.companys') }}
+            {{ $t('Jobs') }}
           </va-list-label>
 
           <template v-for="(company, i) in companys">

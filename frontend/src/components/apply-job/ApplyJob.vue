@@ -1,7 +1,10 @@
 <template>
   <div class="form-elements">
-    <div class="row">
-      <div class="offset--md6 flex xs12">
+    <div class="row offset--md6">
+      <div class="flex xs12 sm6">
+        <img src="https://randomuser.me/api/portraits/women/1.jpg">
+      </div>
+      <div class="flex xs12 sm6">
           <va-card :title="$t('Do you live in sydney?')">
             <form>
               <div class="row">
@@ -16,7 +19,12 @@
             </form>
           </va-card>
       </div>
-      <div class="offset--md6 flex xs12">
+      <div class="flex xs12 sm6">
+        <h1>Company A</h1>
+        <br/><br/><br/><br/><br/><br/>
+        <p> Lorem ipsum</p>
+      </div>
+      <div class="flex xs12 sm6">
         <va-card :title="'Let us know if you have any experience in these areas'">
           <div class="flex xs12">
             <va-card :title="$t('Creating Marketing Materials')">
@@ -54,7 +62,7 @@
               />
             </va-card>
           </div>
-        </va-card>    
+        </va-card>
       </div>
       <div class="medium-editor offset--md6 flex xs12">
             <va-card :title="$t('pitch')">
@@ -134,7 +142,7 @@ export default {
         },
       ],
       simpleSelectModel: '',
-      advancedList:[], 
+      advancedList:[],
     }
   },
   methods: {
