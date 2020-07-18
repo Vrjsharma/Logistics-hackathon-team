@@ -71,6 +71,24 @@ export default new Router({
       ],
     },
     {
+      name: 'Seeker',
+      path: '/seeker',
+      component: AppLayout,
+      children: [
+        {
+          name: 'apply-job',
+          path: 'apply-job',
+          component: () => import('../components/apply-job/ApplyJob.vue'),
+          default: true,
+        },
+        {
+          name: 'view-jobs',
+          path: 'view-jobs',
+          component: () => import('../components/view-jobs/ViewJobs.vue'),
+        },
+      ],
+    },
+    {
       name: 'Admin',
       path: '/admin',
       component: AppLayout,
