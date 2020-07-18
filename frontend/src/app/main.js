@@ -25,15 +25,15 @@ Vue.use(YmapPlugin)
 Vue.use(VueClipboard)
 
 Vue.use(ColorThemePlugin, {
-    primary: '#9aaef5',
-    secondary: '#252533',
-    success: '#8ddc88',
-    info: '#71baff',
-    danger: '#f8706d',
-    warning: '#ffd652',
-    gray: '#8396a5',
-    dark: '#34495e',
-  })
+  primary: '#9aaef5',
+  secondary: '#252533',
+  success: '#8ddc88',
+  info: '#71baff',
+  danger: '#f8706d',
+  warning: '#ffd652',
+  gray: '#8396a5',
+  dark: '#34495e',
+})
 
 router.beforeEach((to, from, next) => {
   store.commit('setLoading', true)
