@@ -89,6 +89,18 @@ export default new Router({
       ],
     },
     {
+      name: 'Business',
+      path: '/business',
+      component: AppLayout,
+      children: [
+        {
+          name: 'job-info-form',
+          path: 'job-info-form',
+          component: () => import('../components/job-info-form/JobInfo.vue'),
+        },
+      ],
+    },
+    {
       name: 'Admin',
       path: '/admin',
       component: AppLayout,
