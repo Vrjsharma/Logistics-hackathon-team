@@ -23,7 +23,8 @@
           class="app-navbar__logo mr-3"
           to="/"
         >
-          <va-icon-vuestic />
+          <!-- <va-icon-vuestic /> -->
+          <img src="./uneedwork.png">
         </router-link>
       </div>
       <div class="app-navbar__center lg5 md4">

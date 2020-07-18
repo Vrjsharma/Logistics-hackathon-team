@@ -2,7 +2,8 @@
   <div class="auth-layout row align-content--center">
     <div class="flex xs12 pa-3 flex-center">
       <router-link class="py-5 flex-center" to="/">
-        <va-icon-vuestic />
+        <!-- <va-icon-vuestic /> -->
+        <img src="./uneedwork.png" width="33%">
       </router-link>
     </div>
 
