@@ -59,7 +59,7 @@ export default {
       })
     },
     onclick () {
-      this.$router.push({ name: '/seeker/apply-job' })
+      this.$router.push({ name: 'apply-job' })
     }
   },
 }

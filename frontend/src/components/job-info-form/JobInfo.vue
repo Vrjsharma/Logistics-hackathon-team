@@ -27,14 +27,14 @@
                 @initialized="handleEditorInitialization"
                 v-model="jobd"
               >
-                <h1>Description about job</h1>
-                <p>Describe here....</p>
+                <h1>Job description. What does the job entail?</h1>
+                <p>...</p>
               </va-medium-editor>
             </div>
           </va-card>
       </div>
        <div class="flex xs12">
-          <va-card :title="$t('Do you live in sydney?')">
+          <va-card :title="$t('What expertise are required?')">
             <form>
               <div class="row">
                 <div class="flex md6 xs12">

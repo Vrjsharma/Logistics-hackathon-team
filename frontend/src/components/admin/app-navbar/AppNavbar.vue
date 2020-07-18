@@ -19,7 +19,15 @@
           :color="contextConfig.invertedColor ? $themes.gray : 'white'"
         />
 
+        <router-link
+          class="app-navbar__logo mr-3"
+          to="/"
+        >
+          <!-- <va-icon-vuestic /> -->
+          <img src="./uneedwork.png">
+        </router-link>
       </div>
+
       <app-navbar-actions
         class="app-navbar__actions md5 lg4"
         :is-top-bar.sync="isTopBarProxy"

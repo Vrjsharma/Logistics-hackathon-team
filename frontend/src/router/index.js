@@ -17,7 +17,7 @@ export default new Router({
     ...demoRoutes,
     {
       path: '*',
-      redirect: { name: 'dashboard' },
+      redirect: { name: 'view-jobs' },
     },
     {
       path: '/auth',
