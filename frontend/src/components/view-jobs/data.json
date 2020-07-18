@@ -1,26 +1,32 @@
 [
   {
     "id": "1",
-    "name": "company A",
-    "summary": "we are looking for w",
+    "name": "Digital Marketing Opportunity",
+    "summary": "Looking for someone with a passion for social media to post regularly.",
     "picture": "https://randomuser.me/api/portraits/women/1.jpg"
   },
   {
     "id": "2",
-    "name": "company B",
-    "summary": "we are looking for x",
+    "name": "Exciting Startup Idea",
+    "summary": "Looking for someone to help oversee business operations for startup.",
     "picture": "https://randomuser.me/api/portraits/women/2.jpg"
   },
   {
     "id": "3",
-    "name": "company C",
-    "summary": "we are looking for y",
+    "name": "Website Manager",
+    "summary": "Need someone to maintain and create content for Bullis School’s website",
     "picture": "https://randomuser.me/api/portraits/men/1.jpg"
   },
   {
     "id": "4",
-    "name": "company C",
-    "summary": "we are looking for z",
+    "name": "Copywriter Wanted",
+    "summary": "Seeking a ghostwriter for blog posts for my  business LinkedIn channel.",
     "picture": "https://randomuser.me/api/portraits/women/4.jpg"
+  },
+  {
+    "id": "5",
+    "name": "SEO Rankings Advisor",
+    "summary": "Need to boost my restaurant on Google, not sure how.",
+    "picture": "https://randomuser.me/api/portraits/men/2.jpg"
   }
 ]
