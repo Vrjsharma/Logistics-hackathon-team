@@ -1,5 +1,6 @@
 <template>
   <form @submit.prevent="onsubmit()">
+
     <va-input
       v-model="email"
       type="email"
@@ -15,6 +16,31 @@
       :error="!!passwordErrors.length"
       :error-messages="passwordErrors"
     />
+
+    <va-input
+      v-model="university"
+      type="University"
+      :label="$t('University')"
+    />
+
+    <va-input
+      v-model="degree"
+      type="Degree"
+      :label="$t('Degree')"
+    />
+
+    <div class="row">
+      <div class="flex xs12 sm6 md4">
+        <va-select
+          :options="yearList"
+          v-model="yearOfCompletion"
+          :label="$t('Year of completion')"
+          :max-height="null"
+          no-clear
+        />
+      </div>
+    </div>
+
 
     <div class="auth-layout__options d-flex align--center justify--space-between">
       <va-checkbox
@@ -47,6 +73,10 @@ export default {
       email: '',
       password: '',
       agreedToTerms: false,
+      university: '',
+      degree: '',
+      yearList: ['2021','2022','2023','2024','2025','other'],
+      yearOfCompletion:'',
       emailErrors: [],
       passwordErrors: [],
       agreedToTermsErrors: [],
