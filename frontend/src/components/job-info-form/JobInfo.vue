@@ -7,6 +7,7 @@
               <va-input
                   v-model="simple"
                   placeholder="Name of job"
+                  type="text"
                 />
                </va-card>
           </div>
@@ -72,6 +73,9 @@ export default {
   name: 'form-elements',
   data () {
     return {
+      simple: "",
+      withDescription: "",
+
       jobd: null,
       simpleOptions: ["Creating marketing materials","Social media content creation","Blogging/Writing","Real estate",
       "Construction","Bioinformatics","software analysis","statistical analysis","Law"],
