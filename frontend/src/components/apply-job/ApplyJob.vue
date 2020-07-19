@@ -21,15 +21,15 @@
       </div>
       <div class="flex xs12 sm6">
         <h1>Website Manager</h1>
-        <br/><br/><br/><br/><br/><br/>
+        <br/><br/><br/>
         <p>Maintains and creates content for Bullis School’s website, with responsibilities for
 technological aspects as well as site content. Additional responsibilities include ongoing
 web strategy and overseeing website operation, with particular attention to design, content and
-site maintenance. Updates website content, including information, images, calendar content,
-schedules, graphics, etc., according to the changing needs of the School. Works with the
+site maintenance. <br/> Updates website content, including information, images, calendar content,
+schedules, graphics, etc., according to the changing needs of the School. <br/>Works with the
 Executive Director of Institutional Advancement and the Communications Director, as well as
 website designers and providers, to plan, maintain and improve online presence, initiating new
-ways to enhance and develop the School’s website presence. This is primarily a telecommuting
+ways to enhance and develop the School’s website presence. <br/>This is primarily a telecommuting
 position, however the website manager assists/attends Advancement meetings and events as
 needed. </p>
       </div>
