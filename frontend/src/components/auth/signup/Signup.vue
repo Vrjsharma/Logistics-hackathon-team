@@ -90,7 +90,7 @@ export default {
       if (!this.formReady) {
         return
       }
-      this.$router.push({ name: 'dashboard' })
+      this.$router.push({ name: 'view-jobs' })
     },
   },
   computed: {
