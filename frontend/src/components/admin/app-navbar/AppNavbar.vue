@@ -5,7 +5,7 @@
   >
     <div class="app-navbar__content row">
       <div class="app-navbar__menu-container">
-        <va-icon-menu
+        <!-- <va-icon-menu
           class="app-navbar__menu"
           v-if="!minimized && !isTopBar"
           @click.native="$emit('update:minimized', !minimized)"
@@ -17,7 +17,7 @@
           v-if="minimized && !isTopBar"
           @click.native="$emit('update:minimized', !minimized)"
           :color="contextConfig.invertedColor ? $themes.gray : 'white'"
-        />
+        /> -->
 
         <router-link
           class="app-navbar__logo mr-3"

@@ -1,14 +1,14 @@
 <template>
   <div class="lists">
     <div class="row">
-      <div class="flex xs12 lg6">
+      <div class="flex lg12">
         <va-list fit class="mb-2">
 
           <va-list-label>
             {{ $t('Jobs') }}
           </va-list-label>
 
-          <template v-for="(company, i) in companys">
+          <template v-for="(company) in companys">
             <va-item :key="'item' + company.id" clickable @click="notify(company.name)">
 
               <va-item-section avatar>
